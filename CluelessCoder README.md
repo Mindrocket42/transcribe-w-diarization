@@ -22,7 +22,11 @@
 
   
 
-This project combines OpenAI Whisper ASR with NeMo diarization to label speakers in audio. **Before following the install instructions below, it is highly advisable to first work with [`Whisper_Transcription_+_NeMo_Diarization.ipynb`](Whisper_Transcription_+_NeMo_Diarization.ipynb) in Colab or locally.**
+This project combines OpenAI Whisper ASR with NeMo diarization to label speakers in audio. **Before following the install instructions below, it is highly advisable to first work with [`Whisper_Transcription_+_NeMo_Diarization.ipynb`](Whisper_Transcription_+_NeMo_Diarization.ipynb) in Colab or locally. 
+
+If you work locally be aware that there are different requirements for GPU `requirements.txt` and iGPU/CPU workloads `requirements-no-torch.txt`.**
+
+**For your first run drop your mp3 audio into the root folder and work through the Jupyter notebook which is setup to look for audio in the root folder.**
 
   
 
